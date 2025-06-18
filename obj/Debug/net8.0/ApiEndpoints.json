@@ -1,0 +1,1100 @@
+[
+  {
+    "ContainingType": "Exam.Controllers.ChoiceController",
+    "Method": "GetAll",
+    "RelativePath": "api/Choice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[System.Collections.Generic.IEnumerable\u00601[[Exam.ViewModels.ChoiceViewModel.ChoiceViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.ChoiceController",
+    "Method": "Add",
+    "RelativePath": "api/Choice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "choiceviewmodel",
+        "Type": "Exam.ViewModels.ChoiceViewModel.ChoiceViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.ChoiceViewModel.ChoiceViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.ChoiceController",
+    "Method": "Update",
+    "RelativePath": "api/Choice",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "choiceeditviewmodel",
+        "Type": "Exam.ViewModels.ChoiceViewModel.ChoiceEditViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.ChoiceViewModel.ChoiceViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.ChoiceController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Choice",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.ChoiceViewModel.ChoiceViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.ChoiceController",
+    "Method": "GetById",
+    "RelativePath": "api/Choice/id:int",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.ChoiceViewModel.ChoiceViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.CourseController",
+    "Method": "Add",
+    "RelativePath": "api/Course / Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseviewmodel",
+        "Type": "Exam.ViewModels.CourseViewModel.CourseViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.CourseViewModel.CourseViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.CourseController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Course / DeleteById",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.CourseViewModel.CourseViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.CourseController",
+    "Method": "GetAll",
+    "RelativePath": "api/Course / GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[System.Collections.Generic.IEnumerable\u00601[[Exam.ViewModels.CourseViewModel.CourseViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.CourseController",
+    "Method": "GetById",
+    "RelativePath": "api/Course / GetById/id:int",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.CourseViewModel.CourseViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.CourseController",
+    "Method": "GetCoursesForInstructor",
+    "RelativePath": "api/Course / GetCoursesForInstructor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[System.Collections.Generic.IEnumerable\u00601[[Exam.ViewModels.CourseViewModel.CourseViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.CourseController",
+    "Method": "GetCoursesForStudent",
+    "RelativePath": "api/Course / GetCoursesForStudent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[System.Collections.Generic.IEnumerable\u00601[[Exam.ViewModels.CourseStudentViewModel.CourseStudentViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.CourseController",
+    "Method": "Update",
+    "RelativePath": "api/Course / Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseeditviewmodel",
+        "Type": "Exam.ViewModels.CourseViewModel.CourseEditViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.CourseViewModel.CourseViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.ExamController",
+    "Method": "GetAll",
+    "RelativePath": "api/Exam",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[System.Collections.Generic.IEnumerable\u00601[[Exam.ViewModels.ExamViewModel.ExamViewModel.ExamViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.ExamController",
+    "Method": "Add",
+    "RelativePath": "api/Exam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examviewmodel",
+        "Type": "Exam.ViewModels.ExamViewModel.ExamViewModel.ExamViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.ExamViewModel.ExamViewModel.ExamViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.ExamController",
+    "Method": "Update",
+    "RelativePath": "api/Exam",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "exameditviewmodel",
+        "Type": "Exam.ViewModels.ExamViewModel.ExamViewModel.ExamEditViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.ExamViewModel.ExamViewModel.ExamViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.ExamController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Exam",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.ExamViewModel.ExamViewModel.ExamViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.ExamController",
+    "Method": "GetById",
+    "RelativePath": "api/Exam/id:int",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.ExamViewModel.ExamViewModel.ExamViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.ExamQuestionController",
+    "Method": "AddExam",
+    "RelativePath": "api/ExamQuestion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "examQuestionViewModel",
+        "Type": "Exam.ViewModels.ExamQuestionViewmodel.ExamQuestionViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.ExamQuestionViewmodel.ExamQuestionViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.InstructorController",
+    "Method": "GetAll",
+    "RelativePath": "api/Instructor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[System.Collections.Generic.IEnumerable\u00601[[Exam.ViewModels.InstructorViewModel.InstructorViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.InstructorController",
+    "Method": "Add",
+    "RelativePath": "api/Instructor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "instructorviewmodel",
+        "Type": "Exam.ViewModels.InstructorViewModel.InstructorViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.InstructorViewModel.InstructorViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.InstructorController",
+    "Method": "Update",
+    "RelativePath": "api/Instructor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "instructoreditviewmodel",
+        "Type": "Exam.ViewModels.InstructorViewModel.InstructorEditViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.InstructorViewModel.InstructorViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.InstructorController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Instructor",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.InstructorViewModel.InstructorViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.InstructorController",
+    "Method": "GetById",
+    "RelativePath": "api/Instructor/id:int",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.InstructorViewModel.InstructorViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.InstructorUserController",
+    "Method": "Add",
+    "RelativePath": "api/InstructorUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "instructorUserViewModel",
+        "Type": "Exam.ViewModels.InstructorUserViewMdel.InstructorUserViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.InstructorUserViewMdel.InstructorUserViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.QuestionController",
+    "Method": "GetAll",
+    "RelativePath": "api/Question",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[System.Collections.Generic.IEnumerable\u00601[[Exam.ViewModels.QuestionViewModel.QuestionViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.QuestionController",
+    "Method": "Add",
+    "RelativePath": "api/Question",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionviewmodel",
+        "Type": "Exam.ViewModels.QuestionViewModel.QuestionViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.QuestionViewModel.QuestionViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.QuestionController",
+    "Method": "Update",
+    "RelativePath": "api/Question",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questioneditviewmodel",
+        "Type": "Exam.ViewModels.QuestionViewModel.QuestionEditViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.QuestionViewModel.QuestionViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.QuestionController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Question",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.QuestionViewModel.QuestionViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.QuestionController",
+    "Method": "GetById",
+    "RelativePath": "api/Question/id:int",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.QuestionViewModel.QuestionViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.QuestionChoiceController",
+    "Method": "AddRange",
+    "RelativePath": "api/QuestionChoice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "questionChoiceViewModel",
+        "Type": "Exam.ViewModels.QuestionChoiceViewModel.QuestionChoiceViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.QuestionChoiceViewModel.QuestionChoiceViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.RoleController",
+    "Method": "GetAll",
+    "RelativePath": "api/Role",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[System.Collections.Generic.IEnumerable\u00601[[Exam.ViewModels.RoleViewModel.RoleViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.RoleController",
+    "Method": "Add",
+    "RelativePath": "api/Role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleViewModel",
+        "Type": "Exam.ViewModels.RoleViewModel.RoleViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.RoleViewModel.RoleViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.RoleFeatureController",
+    "Method": "GetAll",
+    "RelativePath": "api/RoleFeature",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[System.Collections.Generic.IEnumerable\u00601[[Exam.ViewModels.RoleFeatureViewModel.RoleFeatureViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.RoleFeatureController",
+    "Method": "Add",
+    "RelativePath": "api/RoleFeature",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roleFeatureViewModel",
+        "Type": "Exam.ViewModels.RoleFeatureViewModel.RoleFeatureViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.RoleFeatureViewModel.RoleFeatureViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.StudentController",
+    "Method": "GetAll",
+    "RelativePath": "api/Student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[System.Collections.Generic.IEnumerable\u00601[[Exam.ViewModels.StudentViewModel.StudentViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.StudentController",
+    "Method": "Add",
+    "RelativePath": "api/Student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentviewmodel",
+        "Type": "Exam.ViewModels.StudentViewModel.StudentViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.StudentViewModel.StudentViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.StudentController",
+    "Method": "Update",
+    "RelativePath": "api/Student",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studenteditviewmodel",
+        "Type": "Exam.ViewModels.StudentViewModel.StudentEditViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.StudentViewModel.StudentViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.StudentController",
+    "Method": "DeleteById",
+    "RelativePath": "api/Student",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.StudentViewModel.StudentViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.StudentController",
+    "Method": "GetById",
+    "RelativePath": "api/Student/id:int",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.StudentViewModel.StudentViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.StudentUserController",
+    "Method": "Add",
+    "RelativePath": "api/StudentUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ConfirmPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Phone",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.StudentUserViewModel.StudentUserViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.UserController",
+    "Method": "Get",
+    "RelativePath": "api/User",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.UserController",
+    "Method": "AddAdmin",
+    "RelativePath": "api/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ConfirmPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Phone",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Exam.ViewModels.ResultViewModel\u00601[[Exam.ViewModels.UserViewModel.UserViewModel, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Exam.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Exam.WeatherForecast, Exam, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
